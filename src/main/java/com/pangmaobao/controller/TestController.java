@@ -1,15 +1,10 @@
 package com.pangmaobao.controller;
 
-import com.google.code.kaptcha.servlet.KaptchaServlet;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import javax.annotation.Resource;
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 
 /**
  * @author: he.feng
@@ -21,9 +16,17 @@ import java.io.IOException;
 public class TestController {
 
 
+
     @RequestMapping("/test")
     public void test(HttpServletRequest request, HttpServletResponse response) {
 
 
+    }
+
+
+    public String fun(String name,int age,String password){
+
+
+        return "fenghe";
     }
 }

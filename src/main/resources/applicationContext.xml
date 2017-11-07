@@ -35,8 +35,8 @@
     <!--启动aop支持-->
     <aop:aspectj-autoproxy/>
 
-    <import resource="classpath:applicationContext-mybatis.xml"/>
     <import resource="classpath:applicationContext-activiti.xml"/>
+    <import resource="classpath:applicationContext-mybatis.xml"/>
 
 
 </beans>
